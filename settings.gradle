@@ -1,0 +1,3 @@
+include ':LibZap'
+include ':app'
+rootProject.name = "ZipZap"

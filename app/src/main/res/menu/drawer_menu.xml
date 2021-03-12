@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<item android:title="Transfers" android:id="@+id/transferGroup">
+    <menu>
+       <group android:checkableBehavior="single">
+           <item android:title="Transfer" android:id="@+id/transfer"/>
+           <item android:title="Business Transfer" android:id="@+id/businessTransfer"/>
+           <item android:title="Bank Transfer" android:id="@+id/bankTransfer"/>
+           <item android:title="Online Transfer" android:id="@+id/bnlineTransfer"/>
+           <item android:title="Other Transfer" android:id="@+id/btherTransfer"/>
+
+       </group>
+    </menu>
+</item>
+
+
+    <item android:title="Info" android:id="@+id/infoGroup">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:title="Locate Nearest Agent" android:id="@+id/locateAgent"/>
+                <item android:title="Customer Services" android:id="@+id/customerService"/>
+
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Settings" android:id="@+id/settingGroup">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:title="Register Money Account" android:id="@+id/registerMoneyAccount"/>
+                <item android:title="Setting" android:id="@+id/Setting"/>
+
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@null">
+        <menu>
+            <item
+                android:id="@+id/upgrade"
+                android:title="@null"
+                app:actionLayout="@layout/upgrade_btn"
+                app:showAsAction="ifRoom"/>
+        </menu>
+    </item>
+    <item android:title="@null">
+        <menu>
+            <item
+                android:id="@+id/nav_about_us"
+                android:title="Follow us:"
+                app:actionLayout="@layout/more_about_us"
+                app:showAsAction="ifRoom"/>
+        </menu>
+    </item>
+
+</menu>
